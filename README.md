@@ -1,54 +1,76 @@
-<div align="center">
+# Chatify - Live Chatting Application
 
-# Chatify
+A real-time chat application built with React and Firebase. Create chat rooms, share resources, and connect with friends instantly.
 
-### Personal Chat Room or Workspace to share resources and hangout with friends.
+## ✨ Features
 
-### https://chatifynew.vercel.app/
+- 🔐 **Secure Authentication** - Sign in with Google
+- 💬 **Real-time Messaging** - Instant group chat with live updates
+- 📸 **Image Sharing** - Share images directly in chat rooms
+- 😊 **Emoji Support** - Express yourself with emojis
+- 🏠 **Create Rooms** - Start your own chat rooms or join existing ones
+- ⚡ **Fast & Responsive** - Built with modern React and Material UI
 
-<div align="center">
-  <img alt="Demo" src="./Assets/chatify.png" />
-</div>
+## 🛠️ Tech Stack
 
-</div>
+- **Frontend:** React.js
+- **Backend:** Firebase (Realtime Database & Authentication)
+- **UI Framework:** Material UI
+- **Icons:** React Icons
 
-## Build With
+## 📦 Installation
 
-- `React.js`
-- `Firebase`
-- `Material UI`
-- `React Icons`
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-## Features:
+### Setup
 
-- Easy SignIn with Google
-- Create Rooms
-- Realtime group messaging with image sharing
-- Supports Emoji
-- Reaction on messages
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/darkphoenix2208/LIVE_CHATTING.git
+   cd LIVE_CHATTING
+   ```
 
-## Installation and Usage
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-### Clone this repository
+3. **Configure Firebase**
+   - Update your Firebase credentials in `src/Firebase/Firebase.js`
 
-`git clone https://github.com/soumyajit4419/Chatify.git` <br/>
-`cd chatify`
+4. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-### Install Dependencies
+The app will open at `http://localhost:3000`
 
-`npm install`
+## 🚀 Usage
 
-In the project directory, you can run:
+1. Sign in with your Google account
+2. Create a new chat room or join an existing one
+3. Start chatting, share images, and have fun!
 
-### npm start
+## 📱 Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+src/
+├── Components/        # React components
+│   ├── Home.js       # Main home page
+│   ├── Chat.js       # Chat interface
+│   ├── CreateRoom.js # Create room functionality
+│   └── ...
+├── Firebase/         # Firebase configuration
+├── Assets/          # Static assets
+└── App.js          # Main app component
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🤝 Contributing
 
-### npm run build
+Feel free to fork, modify, and improve this project!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📄 License
+
+This project is open source and available under the MIT License.
